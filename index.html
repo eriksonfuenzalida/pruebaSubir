@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/main.css">
+        <title>Proyecto Final - Giphy Explorer</title>
+
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="main_title">Giphy - Explorador de Imágenes</h1>
+
+            <section class="main_explorer_form">
+                <div class="main_div_form">
+                    <form>
+                        <label>¿Que quieres buscar?</label>
+                        <input type="text" id="input_busqueda" placeholder="(Ejemplo: Perro, Gato, etc)"/>
+                    </form>
+                    <button class="main_explorer_form-button" id="button_get">Buscar Gif!!</button>
+                    <!-- <button class="main_explorer_form-button" id="button_borrar">Borrar Búsquedas</button> -->
+                </div>
+
+                <div class="main_div_busquedas">
+                    <p><strong>Búsquedas Realizadas: </strong></p>
+                    <ul id="lista_busqueda"></ul>
+                </div>
+            </section>
+            <section class="main_explorer_container" id="print_img">
+            </section>
+        </main>
+        <footer class="footer">
+            <h5 class="footer_copyright">Diseñado por Erikson Fuenzalida - Proyecto Final</h6>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
